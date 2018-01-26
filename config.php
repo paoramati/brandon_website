@@ -2,9 +2,10 @@
 
 return [
     'baseUrl' => 'http://brandonpaul.x10host.com/',
+    'git' => 'https://github.com/paoramati',
     'production' => false,
     'collections' => [],
-    'contact_email' => 'brandonmitchellpaul@gmail.com',
-    'contact_phone' => '0223590779'
+    'email' => 'brandonmitchellpaul@gmail.com',
+    'phone' => '0223 590 779'
 
 ];

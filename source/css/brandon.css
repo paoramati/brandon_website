@@ -1,0 +1,32 @@
+body {
+    /* color: green; */
+    color: #A6E22D;
+}
+
+h1,
+h3 {
+    color: #F92751;
+}
+
+h2 {
+    color: #66D9EF;
+}
+
+h4,
+h5,
+h6 {
+    /* color: #A6E22D; */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #272822;
+}
+
+p {
+    color: #E6C753;
+}
+
+#sideNav {
+    background-color: white;
+}
