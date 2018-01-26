@@ -12,18 +12,19 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-dark fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Brandon - Web Dev</span>
+        <span class="d-block d-lg-none"><i class="fa fa-code"></i> Brandon Paul</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile  mx-auto mb-2" src="img/profile.jpg" alt="">
         </span>
       </a>
+      {{--  <a href="mailto:{{ $page['email'] }}"><i class="fa fa-envelope-o "></i> </a>  --}}
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about">About &amp; Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
@@ -32,14 +33,15 @@
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li>
+          
         </ul>
       </div>
     </nav>
@@ -53,12 +55,15 @@
             <span class="">Paul</span>
           </h1>
           <p class="mb-4">High achieving Bachelor of IT Graduate (major in Systems Development) with years of non-IT work experience.<br> Interested in web development (front and/or back) and software development.</p>
-          <a href="docs/B Paul CV.pdf" class="btn btn-lg btn-outline-primary text-white">Download CV (.pdf)</a>
+          <a href="docs/B Paul CV.pdf" class="btn btn-lg btn-outline-danger text-white">Download CV (.pdf)</a>
         </div>
+
+        <div>
           <div class="subheading mb-5"><i class="fa fa-home"></i> Golden Bay, South Island; Moving to Wellington soon!<br>
             <a href="mailto:{{ $page['email'] }}"><i class="fa fa-envelope-o"></i> {{ $page['email']}} </a><br>
             <a href="tel:{{ $page['phone'] }}"><i class="fa fa-phone"></i> {{ $page['phone'] }}</a><br>
             <a href="{{ $page['git'] }}"><i class="fa fa-github"></i> {{ $page['git'] }}</a>
+          </div>
         </div>
         
           {{--  <ul class="list-inline list-social-icons mb-0">
@@ -126,6 +131,23 @@
             </div>
           </div>
 
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">My Projects</h2>
+
+          <div>
+            <h3>Flora By Laura</h3>
+
+          </div>
+
+          <div>
+            <h3>Kakariki Kids</h3>
+
+          </div>       
+          
         </div>
       </section>
 
@@ -202,17 +224,6 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
-        <div class="my-auto">
-          <h2 class="mb-5">My Projects</h2>
-
-          
-          <ul class="fa-ul mb-0">
-
-          
-          </ul>
-        </div>
-      </section>
 
     </div>
 
