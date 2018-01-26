@@ -16,6 +16,7 @@ elixir(function(mix) {
         ])
         .scripts(['resume.js', 'brandon.js'])
         // .copy('source/_assets/img/*.*', 'source/img')
+        // .copy('source/_assets/docs/*.*', 'source/docs')
         .exec(bin.path() + ' build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
         .browserSync({
             port: port,

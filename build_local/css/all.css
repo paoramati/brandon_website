@@ -148,19 +148,23 @@ a:hover, a:focus, a:active {
 }
 
 body {
-    color: green;
+    /* color: green; */
+    color: #A6E22D;
 }
 
-h1 {
+h1,
+h3 {
     color: #F92751;
 }
 
-h2,
-h3,
+h2 {
+    color: #66D9EF;
+}
+
 h4,
 h5,
 h6 {
-    color: green;
+    /* color: #A6E22D; */
 }
 
 body {
