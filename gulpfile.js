@@ -10,12 +10,17 @@ elixir(function(mix) {
     var env = argv.e || argv.env || 'local';
     var port = argv.p || argv.port || 3000;
 
-    mix.sass('main.scss')
+    mix
+        .sass('main.scss')
         .styles([
             'resume.css',
             'brandon.css'
         ])
-        .scripts(['resume.js', 'brandon.js'])
+        .scripts([
+            'resume.js',
+            'brandon.js'
+        ])
+        .version(['css/all.css', 'js/all.js'], 'source/')
         .exec(bin.path() + ' build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
         .browserSync({
             port: port,

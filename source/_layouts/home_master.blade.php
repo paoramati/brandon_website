@@ -21,7 +21,10 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-	<link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="{{ elixir('css/all.css', '') }}">
+
+    {{--  <link rel="stylesheet" type="text/css" href="{{ elixir('css/all.css') }}">  --}}
+    {{--  <link rel="stylesheet" type="text/css" href="css/all.css">  --}}
 	
 </head>
 
@@ -37,7 +40,9 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script type="text/javascript" src="js/all.js"></script>
+    <script type="text/javascript" src="{{ elixir('js/all.js', '') }}"></script>
+    {{--  <script type="text/javascript" src="{{ elixir('js/all.js') }}"></script>  --}}
+    {{--  <script type="text/javascript" src="js/all.js"></script>  --}}
 
 </body>
 

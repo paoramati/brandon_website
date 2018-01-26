@@ -14,7 +14,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none"><i class="fa fa-code"></i> Brandon Paul</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile  mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile image-rounded mx-auto mb-2" src="img/profile.jpg" alt="">
         </span>
       </a>
       {{--  <a href="mailto:{{ $page['email'] }}"><i class="fa fa-envelope-o "></i> </a>  --}}
@@ -82,7 +82,12 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">International Student Tutor (IT)</h3>
               <div class="subheading mb-3">Nelson Marlborough Institute of Technology</div>
-              <p>Tutored in various IT subjects with students of varying levels of English competence</p>
+              <ul class="bullets">
+                <li>Mentored international students to help them achieve high marks in IT subjects</li>
+                <li>Provided technical guidance (software analysis/coding/deployment)</li>
+                <li>Provided communication guidance (writing, reading, comprehension)</li>
+              </ul>
+              {{--  <p>Tutored in various IT subjects with students of varying levels of English competence</p>  --}}
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">Feb 2017 - Dec 2017</span>
@@ -110,9 +115,9 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Nelson Marlborough Institute of Technology</h3>
-              <div class="subheading mb-3">Bachelor of Information Technology</div>
-              <div>Major in Systems/Software Development</div>
+              <h3 class="mb-0">Bachelor of Information Technology <em>Major in Systems/Software Development</em></h3>
+              <div class="subheading mb-3">Nelson Marlborough Institute of Technology</div>
+              <div></div>
               <p>A/A+ Average</p>
             </div>
             <div class="resume-date text-md-right">

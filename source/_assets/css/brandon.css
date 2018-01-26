@@ -23,7 +23,17 @@ body {
     background-color: #272822;
 }
 
-p {
+p,
+li {
+    color: #E6C753;
+}
+
+ul.bullets {
+    list-style-type: square;
+}
+
+ul.bullets>li {
+    list-style-type: square;
     color: #E6C753;
 }
 
