@@ -21,6 +21,7 @@ elixir(function(mix) {
             'brandon.js'
         ])
         .version(['css/all.css', 'js/all.js'], 'source/')
+        // .imagemin()
         .exec(bin.path() + ' build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
         .browserSync({
             port: port,
