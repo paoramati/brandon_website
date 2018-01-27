@@ -98,8 +98,10 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Admin Assistant</h3>
               <div class="subheading mb-3">Henry Davis York Lawyers</div>
-              <p></p>
-            </div>
+              <ul class="bullets">
+                <li></li>
+              </ul>
+              </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">September 2013 - June 2014</span>
             </div>

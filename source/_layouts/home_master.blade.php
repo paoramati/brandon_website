@@ -25,7 +25,8 @@
 
     {{--  <link rel="stylesheet" type="text/css" href="{{ elixir('css/all.css') }}">  --}}
     {{--  <link rel="stylesheet" type="text/css" href="css/all.css">  --}}
-	
+
+    
 </head>
 
 <body id="page-top">
