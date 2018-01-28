@@ -10,11 +10,11 @@
 
 @section('content')
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-dark fixed-top" id="sideNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger text-dark fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none"><i class="fa fa-code"></i> Brandon Paul</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile image-rounded mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile image-rounded mx-auto mb-2 rounded" src="img/profile.jpg" alt="">
         </span>
       </a>
       {{--  <a href="mailto:{{ $page['email'] }}"><i class="fa fa-envelope-o "></i> </a>  --}}
@@ -50,19 +50,19 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <div class="jumbotron bg-dark">
-          <h1 class="mb-0">Brandon
+          <div class="jumbotron bg-dark text-left">
+          <h1 class="mb-0"><i class="fa fa-code"></i> Brandon
             <span class="">Paul</span>
           </h1>
           <p class="mb-4">High achieving Bachelor of IT Graduate (major in Systems Development) with years of non-IT work experience.<br> Interested in web development (front and/or back) and software development.</p>
           <a href="docs/B Paul CV.pdf" class="btn btn-lg btn-outline-danger text-white">Download CV (.pdf)</a>
         </div>
 
-        <div>
+        <div class="ml-4">
           <div class="subheading mb-5"><i class="fa fa-home"></i> Golden Bay, South Island; Moving to Wellington soon!<br>
             <a href="mailto:{{ $page['email'] }}"><i class="fa fa-envelope-o"></i> {{ $page['email']}} </a><br>
             <a href="tel:{{ $page['phone'] }}"><i class="fa fa-phone"></i> {{ $page['phone'] }}</a><br>
-            <a href="{{ $page['git'] }}"><i class="fa fa-github"></i> {{ $page['git'] }}</a>
+            <a href="https://github.com/paoramati"><i class="fa fa-github"></i> https://github.com/paoramati</a>
           </div>
         </div>
         
@@ -76,9 +76,9 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
+          <h2 class="mb-3">Experience</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">International Student Tutor (IT)</h3>
               <div class="subheading mb-3">Nelson Marlborough Institute of Technology</div>
@@ -94,16 +94,40 @@
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Admin Assistant</h3>
               <div class="subheading mb-3">Henry Davis York Lawyers</div>
-              <ul class="bullets">
+              {{--  <ul class="bullets">
                 <li></li>
-              </ul>
+              </ul>  --}}
               </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">September 2013 - June 2014</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Admin Assistant</h3>
+              <div class="subheading mb-3">Minter Ellison Lawyers</div>
+              {{--  <ul class="bullets">
+              </ul>  --}}
+              </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2010 - February 2012</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Bartender</h3>
+              <div class="subheading mb-3">Arq Nightclub</div>
+              {{--  <ul class="bullets">
+              </ul>  --}}
+              </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2008 - August 2009</span>
             </div>
           </div>
 
@@ -113,14 +137,23 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
+          <h2 class="mb-3">Education</h2>
+          <p class="mb-2">
+            My formal IT education took slightly longer than originally expected. 2.5 years through my BICT course in Sydney, my family &amp; 
+            I needed to move to NZ. It took another year to finish my degree at NMIT, but this was for the best, 
+            as I was able to learn many new development techniques and tools, and also gained an appreciation for the IT scene in NZ.
+          </p>
+          <br>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Bachelor of Information Technology <em>Major in Systems/Software Development</em></h3>
+              <h3 class="mb-0">Bachelor of Information Technology</span></h3>
               <div class="subheading mb-3">Nelson Marlborough Institute of Technology</div>
               <div></div>
-              <p>A/A+ Average</p>
+              <ul class="bullets">
+                <li>Major in Systems Development</li>
+                <li>A/A+ Average</li>
+              </ul>
+              <a href="docs/B_NMIT_Transcript.pdf" class="btn btn-md btn-danger text-white">Download NMIT Transcript (.pdf)</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">Feb 2017 - Dec 2017</span>
@@ -129,9 +162,13 @@
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Western Sydney, Australia</h3>
-              <div class="subheading mb-3">Bachelor of Information Communication Technology (Incomplete/Transferred)</div>
-              <p>GPA: 6.0/7.0</p>
+              <h3 class="mb-0">Bachelor of Information Communication Technology <span class="text-muted">(Incomplete/Transferred)</span></h3>
+              <div class="subheading mb-3">University of Western Sydney, Australia</div>
+              <ul class="bullets">
+                <li>GPA: 6.0/7.0</li>
+              </ul>
+
+              <a href="docs/B_UWS_Transcript.pdf" class="btn btn-md btn-danger text-white">Download UWS Transcript (.pdf)</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">June 2014 - Dec 2016</span>
@@ -143,15 +180,22 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
-          <h2 class="mb-5">My Projects</h2>
+          <h2 class="mb-3">My Projects</h2>
 
-          <div>
-            <h3>Flora By Laura</h3>
-
+          <div class="mb-2">
+            <h3>Flora By Laura - wedding and event floristry</h3>
+            <p>Built with Laravel, I'm collaborating with the owner to add new features with each iteration.</p>
+            <a href="http://florabylaura.com.au" >
+              <img src="img/screen_fbl.png" class="img-fluid" width="400" alt="Flora By Laura Screen">
+            </a>
           </div>
-
-          <div>
-            <h3>Kakariki Kids</h3>
+  <br>
+          <div class="mb-2">
+            <h3>Kakariki Kids - Golden Bay early learning centre</h3>
+            <p>Built with the static site generator, Jigsaw, this site is simple, but was important for learning &amp; implementing SEO and other non-obvious aspects of web dev.</p>
+            <a href="http://kakarikikids.co.nz">
+              <img src="img/screen_kk.png" class="img-fluid" width="400" alt="Kakariki Kids Screen">
+            </a>
 
           </div>       
           
@@ -160,74 +204,74 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+          <h2 class="mb-3">Skills</h2>
 
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
-            </li>
-            <li class="list-inline-item">
-                <i class="devicons devicons-laravel"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-php"></i>
-              </li>
-            {{--  <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>  --}}
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            {{--  <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>  --}}
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-          </ul>
+          {{--  <div class="subheading mb-3">  --}}
+            <h3>Programming Languages &amp; Tools</h3>
+          
+            <div class="subheading mb-3">Web Dev</div>
 
-          {{--  <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>  --}}
+            <ul class="list-inline list-icons">
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="HTML-5">
+                <i class="devicon-html5-plain"></i>
+              </li>
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="CSS3">
+                <i class="devicon-css3-plain"></i>
+              </li>
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="JavaScript">
+                <i class="devicon-javascript-plain"></i>
+              </li>
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="jQuery">
+                <i class="devicon-jquery-plain"></i>
+              </li>
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="PHP">
+                <i class="devicon-php-plain"></i>
+              </li>
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Laravel">
+                <i class="devicon-laravel-plain"></i>
+              </li>
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Bootstrap">
+                <i class="devicon-bootstrap-plain"></i>
+              </li>
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Wordpress">
+                <i class="devicon-wordpress-plain"></i>
+              </li>
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="nodejs/npm">
+                <i class="devicon-nodejs-plain"></i>
+              </li>
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Gulp">
+                <i class="devicon-gulp-plain"></i>
+              </li>
+
+
+              <div class="subheading mb-3">Object Oriented Languages</div>
+
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Java">
+                <i class="devicon-java-plain"></i>
+              </li>
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="C#">
+                <i class="devicon-csharp-plain"></i>
+              </li>
+              
+              <div class="subheading mb-3">Database</div>
+
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="MySQL">
+                <i class="devicon-mysql-plain"></i>
+              </li>
+            </ul>
+        
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p></p>
-          <p class="mb-0"></p>
+          <h2 class="mb-2">Interests</h2>
+          <p>I love hanging with my family, anywhere, but particularly at the beach and in kayaks.</p>
+          <p>It took me a long time to realise that I also love writing code and working with computers!</p>
+          <p>I love reading, politics, watching shows and movies, and also sometimes making them: </p>
+          <iframe src="https://player.vimeo.com/video/86812695" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          {{--  <p><a href="https://vimeo.com/86812695">My Show Reel</a> from <a href="https://vimeo.com/user12250942">Brandon Paul</a> on <a href="https://vimeo.com">Vimeo</a>.</p>          <p class="mb-0"></p>  --}}
+          <p>Feat. <em>Everything in Its Right Place</em> by Radiohead</p>
         </div>
       </section>
 
