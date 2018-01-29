@@ -1,16 +1,16 @@
 @extends('_layouts.home_master')
 
 @section('title') 
-  Brandon Paul's IT Resume Website
+  Brandon Paul - IT Graduate
 @endsection 
 
 @section('description')
-  IT resume and website for Brandon Paul, NZ IT graduate
+Brandon Paul's IT resume website. Brandon is an IT graduate looking primarily for web dev work.
 @endsection
 
 @section('content')
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger text-dark fixed-top" id="sideNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-dark fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none"><i class="fa fa-code"></i> Brandon Paul</span>
         <span class="d-none d-lg-block">
@@ -27,9 +27,6 @@
             <a class="nav-link js-scroll-trigger" href="#about">About &amp; Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
@@ -38,6 +35,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
@@ -55,7 +55,7 @@
             <span class="">Paul</span>
           </h1>
           <p class="mb-4">High achieving Bachelor of IT Graduate (major in Systems Development) with years of non-IT work experience.<br> Interested in web development (front and/or back) and software development.</p>
-          <a href="docs/B Paul CV.pdf" class="btn btn-lg btn-outline-danger text-white">Download CV (.pdf)</a>
+          <a href="docs/B Paul CV.pdf" target="blank" class="btn btn-lg btn-outline-danger text-white">Download CV (.pdf)</a>
         </div>
 
         <div class="ml-4">
@@ -72,67 +72,6 @@
             </li>
           </ul>  --}}
         </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-3">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-3">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">International Student Tutor (IT)</h3>
-              <div class="subheading mb-3">Nelson Marlborough Institute of Technology</div>
-              <ul class="bullets">
-                <li>Mentored international students to help them achieve high marks in IT subjects</li>
-                <li>Provided technical guidance (software analysis/coding/deployment)</li>
-                <li>Provided communication guidance (writing, reading, comprehension)</li>
-              </ul>
-              {{--  <p>Tutored in various IT subjects with students of varying levels of English competence</p>  --}}
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Feb 2017 - Dec 2017</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-3">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Admin Assistant</h3>
-              <div class="subheading mb-3">Henry Davis York Lawyers</div>
-              {{--  <ul class="bullets">
-                <li></li>
-              </ul>  --}}
-              </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2013 - June 2014</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-3">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Admin Assistant</h3>
-              <div class="subheading mb-3">Minter Ellison Lawyers</div>
-              {{--  <ul class="bullets">
-              </ul>  --}}
-              </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2010 - February 2012</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-3">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Bartender</h3>
-              <div class="subheading mb-3">Arq Nightclub</div>
-              {{--  <ul class="bullets">
-              </ul>  --}}
-              </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">April 2008 - August 2009</span>
-            </div>
-          </div>
-
-        </div>
-
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
@@ -153,7 +92,7 @@
                 <li>Major in Systems Development</li>
                 <li>A/A+ Average</li>
               </ul>
-              <a href="docs/B_NMIT_Transcript.pdf" class="btn btn-md btn-danger text-white">Download NMIT Transcript (.pdf)</a>
+              <a href="docs/B_NMIT_Transcript.pdf" target="blank" class="btn btn-md btn-danger text-white">Download NMIT Transcript (.pdf)</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">Feb 2017 - Dec 2017</span>
@@ -168,7 +107,7 @@
                 <li>GPA: 6.0/7.0</li>
               </ul>
 
-              <a href="docs/B_UWS_Transcript.pdf" class="btn btn-md btn-danger text-white">Download UWS Transcript (.pdf)</a>
+              <a href="docs/B_UWS_Transcript.pdf" target="blank" class="btn btn-md btn-danger text-white">Download UWS Transcript (.pdf)</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">June 2014 - Dec 2016</span>
@@ -181,25 +120,50 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
           <h2 class="mb-3">My Projects</h2>
+          <p>Here are some of my commercial projects. Examples of some personal &amp; school projects can be found on <a href="tps://github.com/paoramati">my GitHub repo</a>.</p>
 
-          <div class="mb-2">
-            <h3>Flora By Laura - wedding and event floristry</h3>
-            <p>Built with Laravel, I'm collaborating with the owner to add new features with each iteration.</p>
-            <a href="http://florabylaura.com.au" >
-              <img src="img/screen_fbl.png" class="img-fluid" width="400" alt="Flora By Laura Screen">
-            </a>
+          <h3>Flora By Laura - wedding and event floristry</h3>
+
+          <div class="mb-2 row">
+
+            <div class="col-md-4">              
+              <a href="http://florabylaura.com.au" >
+                <img src="img/screen_fbl.png" class="img-fluid" width="400" alt="Flora By Laura Screen">
+              </a>
+            </div>
+
+            <div class="col-md-4">
+
+            <ul class="bullets"></p>
+              <li>Built with Laravel.</li>
+              <li>Collaborating with the owner to add new features with each iteration; an informal AGILE process!</li>
+            </ul>
+
           </div>
-  <br>
-          <div class="mb-2">
-            <h3>Kakariki Kids - Golden Bay early learning centre</h3>
-            <p>Built with the static site generator, Jigsaw, this site is simple, but was important for learning &amp; implementing SEO and other non-obvious aspects of web dev.</p>
-            <a href="http://kakarikikids.co.nz">
-              <img src="img/screen_kk.png" class="img-fluid" width="400" alt="Kakariki Kids Screen">
-            </a>
+          </div>
+          
+          <br>
+          
+          <h3>Kakariki Kids - Golden Bay early learning centre</h3>
+          <div class="mb-2 row">
 
+            <div class="col-md-4">
+              <a href="http://kakarikikids.co.nz">
+                <img src="img/screen_kk.png" class="img-fluid" width="400" alt="Kakariki Kids Screen">
+              </a>
+            </div>
+
+            <div class="col-md-4">
+              <ul class="bullets">
+                <li>Built with the static site generator, Jigsaw</li>  
+                <li>Important for learning &amp; implementing SEO and other "behind the scenes" aspects of web dev related to traffic</li>
+              </ul>  
+
+            </div>
           </div>       
           
         </div>
+
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
@@ -213,31 +177,31 @@
 
             <ul class="list-inline list-icons">
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="HTML-5">
-                <i class="devicon-html5-plain"></i>
+                <i class="devicon-html5-plain-wordmark"></i>
               </li>
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="CSS3">
-                <i class="devicon-css3-plain"></i>
+                <i class="devicon-css3-plain-wordmark"></i>
               </li>
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="JavaScript">
                 <i class="devicon-javascript-plain"></i>
               </li>
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="jQuery">
-                <i class="devicon-jquery-plain"></i>
+                <i class="devicon-jquery-plain-wordmark"></i>
               </li>
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="PHP">
                 <i class="devicon-php-plain"></i>
               </li>
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Laravel">
-                <i class="devicon-laravel-plain"></i>
+                <i class="devicon-laravel-plain-wordmark"></i>
               </li>
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Bootstrap">
-                <i class="devicon-bootstrap-plain"></i>
+                <i class="devicon-bootstrap-plain-wordmark"></i>
               </li>
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Wordpress">
-                <i class="devicon-wordpress-plain"></i>
+                <i class="devicon-wordpress-plain-wordmark"></i>
               </li>
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="nodejs/npm">
-                <i class="devicon-nodejs-plain"></i>
+                <i class="devicon-nodejs-plain-wordmark"></i>
               </li>
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Gulp">
                 <i class="devicon-gulp-plain"></i>
@@ -247,21 +211,82 @@
               <div class="subheading mb-3">Object Oriented Languages</div>
 
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Java">
-                <i class="devicon-java-plain"></i>
+                <i class="devicon-java-plain-wordmark"></i>
               </li>
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="C#">
-                <i class="devicon-csharp-plain"></i>
+                <i class="devicon-csharp-plain-wordmark"></i>
               </li>
               
               <div class="subheading mb-3">Database</div>
 
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="MySQL">
-                <i class="devicon-mysql-plain"></i>
+                <i class="devicon-mysql-plain-wordmark"></i>
               </li>
             </ul>
         
         </div>
       </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+          <div class="my-auto">
+            <h2 class="mb-3">Experience</h2>
+  
+            <div class="resume-item d-flex flex-column flex-md-row mb-3">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">International Student Tutor (IT)</h3>
+                <div class="subheading mb-3">Nelson Marlborough Institute of Technology</div>
+                <ul class="bullets">
+                  <li>Mentored international students to help them achieve high marks in IT subjects</li>
+                  <li>Provided technical guidance (software analysis/coding/deployment)</li>
+                  <li>Provided communication guidance (writing, reading, comprehension)</li>
+                </ul>
+                {{--  <p>Tutored in various IT subjects with students of varying levels of English competence</p>  --}}
+              </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">Feb 2017 - Dec 2017</span>
+              </div>
+            </div>
+  
+            <div class="resume-item d-flex flex-column flex-md-row mb-3">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">Admin Assistant</h3>
+                <div class="subheading mb-3">Henry Davis York Lawyers</div>
+                {{--  <ul class="bullets">
+                  <li></li>
+                </ul>  --}}
+                </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">September 2013 - June 2014</span>
+              </div>
+            </div>
+  
+            <div class="resume-item d-flex flex-column flex-md-row mb-3">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">Admin Assistant</h3>
+                <div class="subheading mb-3">Minter Ellison Lawyers</div>
+                {{--  <ul class="bullets">
+                </ul>  --}}
+                </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">January 2010 - February 2012</span>
+              </div>
+            </div>
+  
+            <div class="resume-item d-flex flex-column flex-md-row mb-3">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">Bartender</h3>
+                <div class="subheading mb-3">Arq Nightclub</div>
+                {{--  <ul class="bullets">
+                </ul>  --}}
+                </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">April 2008 - August 2009</span>
+              </div>
+            </div>
+  
+          </div>
+  
+        </section>      
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
