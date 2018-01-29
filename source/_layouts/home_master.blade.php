@@ -13,6 +13,14 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- OR -->
+    {{--  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">  --}}
+    
+
+
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto|Ubuntu|Titillium+Web" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
