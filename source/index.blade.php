@@ -77,41 +77,60 @@ Brandon Paul's IT resume website. Brandon is an IT graduate looking primarily fo
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
           <h2 class="mb-3">Education</h2>
-          <p class="mb-2">
-            My formal IT education began with my BICT course in Sydney, finishing with a BIT degree at NMIT. My tertiary immigration
-            enabled me to learn many new development techniques and tools not offered at UWS, and I also gained an appreciation for the IT scene in NZ.
+          <p class="mb-1">
+            My formal IT education began with a BICT course in Sydney which was transferred into a BIT degree at NMIT.
           </p>
           <br>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Bachelor of Information Technology</span></h3>
+              <h3 class="mb-0">Bachelor of Information Technology <span class="text-primary">Feb 2017 - Dec 2017</span></h3>              
+
               <div class="subheading mb-3">Nelson Marlborough Institute of Technology</div>
               <div></div>
               <ul class="bullets">
                 <li>Major in Systems Development</li>
                 <li>A/A+ Average</li>
               </ul>
-              <a href="docs/B_NMIT_Transcript.pdf" target="blank" class="btn btn-md btn-danger text-white">Download NMIT Transcript (.pdf)</a>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Feb 2017 - Dec 2017</span>
+              <a href="docs/B_NMIT_Transcript.pdf" target="blank" class="btn btn-md btn-danger text-white">Download NMIT Transcript (.pdf)</a>
+
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Bachelor of Information Communication Technology <span class="text-primary">June 2014 - Dec 2016</span>
+              </h3>
+              <div class="subheading mb-3">University of Western Sydney, Australia</div>
+              <ul class="bullets">
+                <li>GPA: 6.0/7.0</li>
+                <li>Transferred to BIT degree</li>
+              </ul>
+
+            </div>
+            <div class="resume-date text-md-right">
+              <a href="docs/B_UWS_Transcript.pdf" target="blank" class="btn btn-md btn-danger text-white">Download UWS Transcript (.pdf)</a>
+
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Bachelor of Information Communication Technology <span class="text-muted">(Incomplete/Transferred)</span></h3>
-              <div class="subheading mb-3">University of Western Sydney, Australia</div>
+              <h3 class="mb-0">Diploma of Screen &amp; Media <span class="text-primary">Feb 2012 - Dec 2012</span>
+              </h3>
+              <div class="subheading mb-3">Sydney Film School, Australia</div>
               <ul class="bullets">
-                <li>GPA: 6.0/7.0</li>
+                <li>Focus on Video Editing</li>
+                
               </ul>
 
-              <a href="docs/B_UWS_Transcript.pdf" target="blank" class="btn btn-md btn-danger text-white">Download UWS Transcript (.pdf)</a>
+              {{--  <a href="docs/B_UWS_Transcript.pdf" target="blank" class="btn btn-md btn-danger text-white">Download UWS Transcript (.pdf)</a>  --}}
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">June 2014 - Dec 2016</span>
             </div>
           </div>
+
 
         </div>
       </section>
@@ -290,11 +309,8 @@ Brandon Paul's IT resume website. Brandon is an IT graduate looking primarily fo
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-2">Interests</h2>
-          <p>I love hanging with my family, anywhere, but particularly at the beach and in kayaks.</p>
-          <p>It took me a long time to realise that I also love writing code and working with computers!</p>
-          <p>I love reading, politics, watching shows and movies, and also sometimes making them: </p>
+          <p>I love hanging with my family, anywhere, but particularly at the beach and in kayaks, reading, learning &amp; implementing coding, politics, watching shows and movies. <br>Here is a show reel of movies I've directed and/or edited</p>
           <iframe src="https://player.vimeo.com/video/86812695" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          {{--  <p><a href="https://vimeo.com/86812695">My Show Reel</a> from <a href="https://vimeo.com/user12250942">Brandon Paul</a> on <a href="https://vimeo.com">Vimeo</a>.</p>          <p class="mb-0"></p>  --}}
           <p>Feat. <em>Everything in Its Right Place</em> by Radiohead</p>
         </div>
       </section>
