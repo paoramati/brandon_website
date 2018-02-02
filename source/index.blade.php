@@ -55,11 +55,11 @@ Brandon Paul's IT resume website. Brandon is an IT graduate looking primarily fo
             <span class="">Paul</span>
           </h1>
           <p class="mb-4">High achieving Bachelor of IT Graduate (major in Systems Development) with years of non-IT work experience.<br> Interested in full stack web and object oriented software development.</p>
-          <a href="docs/B Paul CV.pdf" target="blank" class="btn btn-lg btn-outline-danger text-white">Download CV (.pdf)</a>
+          <a href="docs/B Paul CV.pdf" target="blank" class="btn btn-lg btn-info text-white"><i class="fa fa-download"></i> Download CV (.pdf)</a>
         </div>
 
         <div class="ml-4">
-          <div class="subheading mb-5"><i class="fa fa-home"></i> Golden Bay, South Island; Moving to Wellington soon!<br>
+          <div class="subheading mb-5"><i class="fa fa-home"></i> Golden Bay, South Island; Moving to Wellington on 25th February, but can't relocate sooner if necessary!<br>
             <a href="mailto:{{ $page['email'] }}"><i class="fa fa-envelope-o"></i> {{ $page['email']}} </a><br>
             <a href="tel:{{ $page['phone'] }}"><i class="fa fa-phone"></i> {{ $page['phone'] }}</a><br>
             <a href="https://github.com/paoramati"><i class="fa fa-github"></i> https://github.com/paoramati</a>
@@ -91,9 +91,10 @@ Brandon Paul's IT resume website. Brandon is an IT graduate looking primarily fo
                 <li>Major in Systems Development</li>
                 <li>A/A+ Average</li>
               </ul>
+
             </div>
             <div class="resume-date text-md-right">
-              <a href="docs/B_NMIT_Transcript.pdf" target="blank" class="btn btn-md btn-danger text-white">Download NMIT Transcript (.pdf)</a>
+              <a href="docs/B_NMIT_Transcript.pdf" target="blank" class="btn btn-lg btn-info text-white"><i class="fa fa-download"></i> Download NMIT Transcript (.pdf)</a>
 
             </div>
           </div>
@@ -110,7 +111,7 @@ Brandon Paul's IT resume website. Brandon is an IT graduate looking primarily fo
 
             </div>
             <div class="resume-date text-md-right">
-              <a href="docs/B_UWS_Transcript.pdf" target="blank" class="btn btn-md btn-danger text-white">Download UWS Transcript (.pdf)</a>
+              <a href="docs/B_UWS_Transcript.pdf" target="blank" class="btn btn-lg btn-info text-white"><i class="fa fa-download"></i> Download UWS Transcript (.pdf)</a>
 
             </div>
           </div>
