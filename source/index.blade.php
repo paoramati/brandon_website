@@ -55,7 +55,7 @@ Brandon Paul's IT resume website. Brandon is an IT graduate looking primarily fo
             <span class="">Paul</span>
           </h1>
           <p class="mb-4">High achieving Bachelor of IT Graduate (major in Systems Development) with years of non-IT work experience.<br> Interested in full stack web and object oriented software development.</p>
-          <a href="docs/B Paul CV.pdf" target="blank" class="btn btn-lg btn-info text-white"><i class="fa fa-download"></i> Download CV (.pdf)</a>
+          <a href="docs/BrandonPaulCV.pdf" target="blank" class="btn btn-lg btn-info text-white"><i class="fa fa-download"></i> Download CV (.pdf)</a>
         </div>
 
         <div class="ml-4">
@@ -241,6 +241,25 @@ Brandon Paul's IT resume website. Brandon is an IT graduate looking primarily fo
               <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="MySQL">
                 <i class="devicon-mysql-plain-wordmark"></i>
               </li>
+{{--  
+              <div class="subheading mb-3">Environments/IDEs/Tools</div>
+
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Android">
+                <i class="devicon-android-plain-wordmark"></i>
+              </li>
+
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Dot-Net">
+                <i class="devicon-dot-net-plain-wordmark"></i>
+              </li>
+              
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Visual Studio / Visual Studio Code">
+                <i class="devicon-visualstudio-plain-wordmark"></i>
+              </li>
+
+              <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="IntelliJ">
+                <i class="devicon-intellij-plain-wordmark"></i>
+              </li>  --}}
+
             </ul>
         
         </div>
